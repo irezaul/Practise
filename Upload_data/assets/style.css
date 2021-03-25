@@ -1,0 +1,36 @@
+.text_effects{
+    text-shadow: 2px 1 px  rgb(0, 204, 255);
+}
+
+/*font css3*/
+@font-face{
+    font-family: Russo One;
+    src:url('go3v2.ttf')
+}
+.font-head{
+    font-family: Russo One;
+}
+
+/*puls_contact*/
+.puls_contact{
+    width: 150%; height: 150px; position: relative;
+}
+.puls_contact img{
+    width: 140px; height: 120px;
+    position: absolute;
+    left: 0; top: -15px;
+    animation-name: puls;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes puls{
+    from{left: 0}
+    to{left: 85%}
+}
+
+
+
+
+
+
