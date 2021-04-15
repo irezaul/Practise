@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/assets/go.png) no-repeat center center fixed;
+    background-size: cover;
+    background-color: palegoldenrod;
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Anonymous Pro', monospace; 
+    background-color: rgb(25,25,25);  
+
+}
+.container{
+    color: blanchedalmond;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+}
+.container h1{
+    font-size: 250%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: 2px solid rgb(184, 105, 56);
+    margin-bottom: 45px;
+}   
+.box{
+    width: 100%;
+    padding: 0 4px;
+    /* border-bottom: 2px solid olivedrab; */
+}
+.box input{
+    background: none;
+    width: 75%;
+    padding: 5px 10px;
+    margin: 6px 0px;
+    padding: 10px 0px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: palegoldenrod;
+    border-bottom: 2px solid rgb(184, 105, 56);
+    display: inline;
+}
+.box i{
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 40;
+    margin: 20px 0;
+    padding: 6px;
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Global */
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.line-1{
+    position: relative;
+    top: 50%;  
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 4s steps(30) 1s 1 normal both,
+     blinkTextCursor 500ms steps(30) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 15em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
