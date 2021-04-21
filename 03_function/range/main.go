@@ -9,7 +9,7 @@ func main() {
 	for key, value := range emails {
 		fmt.Printf("%s: %s\n", key, value)
 	}
-
+         //Range key
 	for key := range emails {
 		fmt.Println("Name: " + key)
 
