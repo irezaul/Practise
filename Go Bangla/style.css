@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(238, 238, 220);
+    font-family: 'Boshonto', sans-serif;
+}
+header{
+    position: relative;
+    left: 10;
+}
+header h1{
+    position: relative;
+    left: 46px;
+    top: 22px;
+    border: 8px solid black;
+    padding: 2px 3px;
+    display: inline;
+    border-radius: 30px;
+}
+header h3{
+    position: relative;
+    left: 112px;
+    top: -32px;
+}
+.navbar{
+    text-align: right;
+    position: relative;
+    right: 46px;
+    top: -81px;
+}
+
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+}
+.banner p{
+    position: relative;
+    top: -41px;
+    left: 10px;
+}
+.nav search{
+    position: relative;
+    size: 300px;
+}
