@@ -27,13 +27,13 @@ header h3{
     top: -81px;
 }
 
-.banner{
+.main{
     text-align: center;
 }
-.banner h1{
+.main h1{
     font-size: 50px;
 }
-.banner p{
+.main p{
     position: relative;
     top: -41px;
     left: 10px;
