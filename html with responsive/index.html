@@ -13,25 +13,25 @@
     <div class="container">
         <div class="navbar">
             <img src="img/masterlogo.png" class="logo">
-
-            <nav>
-                <ul>
+            <h2>মাস্টার একাডেমি</h2>
+           <nav>
+                <ul id="menuList">
                     <li>
-                        <a href="">কিভাবে ?</a>
+                        <a href="">কিভাবে </a>
                         <a href="">সংযুক্ত থাকুন </a>
                         <a href="">কোডিংবুট ক্যাম্প </a>
                         <a href="">আমাদের লক্ষ্য</a>
                     </li>
                 </ul>
             </nav>
-            <img src="img/menu.png" class="menu-icon">
+            <img src="img/menu.png" class="menu-icon" onclick="togglemenu()">
             </a>
         </div>
         <div class="row">
             <div class="col-1">
-                <h2>স্বাগতম,<br>আমাদের কোডিংবুট ক্যাম্পে ।</h2>
+                <h2>স্বাগতম,<br>মাস্টার একাডেমি কোডিংবুট ক্যাম্পে </h2>
                 <h3>সম্পূর্ণ বিনামূল্যে বাংলাদেশ কপিরাইট অফিস এবং ম্যাটিওরস ডট কম এর উদ্যেগে ,</h3>
-                <p>পরিচালিত এই গো-লেং শর্ট কোর্সে । </p>
+                <p>আপনিও অংশগ্রহণ করতে পারেন।</p>
                 <button type="button"> এখানে ক্লিক করুন<img src="/img/arrow.png">
                 </button>
             </div>
@@ -47,6 +47,19 @@
         <img src="img/tw.png" alt="">
         <img src="img/ig.png" alt="">
     </div>
+    <script>
+        var menuList = document.getElementById("menuList");
+        menuList.style.maxHeight = "0px";
+        function togglemenu() {
+            if (menuList.style.maxHeight == "0px") {
+                menuList.style.maxHeight = "130px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+
+            }
+        }
+    </script>
 </body>
 
 </html>
