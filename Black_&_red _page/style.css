@@ -46,7 +46,7 @@ nav{
     font-size: 18px;
 }
 .left-sidebar{
-    width: 18.5%;
+    width: 19.5%;
     height: 100%;
     position: absolute;
     left: 0;
@@ -55,18 +55,18 @@ nav{
     
 }
 .row{
-    padding: 0 10%;
+    padding: 0 2%;
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     position: relative;
-    margin-top: 2%;
+    margin-top: 12%;
 }
 .left-col{
     flex-basis: 40%;
 }
 .right-col{
-    flex-basis: 55%;
+    flex-basis: 70%;
 }
 .left-col img{
     width: 80%;
@@ -79,9 +79,149 @@ nav{
 }
 
 .right-col h1{
+    font-size: 55px;
+    font-weight:600;
+    text-align: center
+    
+}
+.right-col h3{
     text-align: center;
 }
-.right-col p{
+    
+.right-col a{
+    color: #fff;
+    margin: 20px 0 70px;
+}
+/* .social-media{
+    display: flex;
+    margin-top: 30px;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.icon img{
+    width: 28px;
+}
+
+
+.icon a{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff1616;
+   display: flex; 
+   justify-content: center;
+
+    
+} */
+
+@import '//codepen.io/chrisdothtml/pen/ojLzJK.css';
+.social-btns .btn,
+.social-btns .btn:before,
+.social-btns .btn .fa {
+  transition: all 0.35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%;
+}
+.social-btns .btn .fa {
+  transform: scale(0.8);
+}
+.social-btns .btn.facebook:before {
+  background-color: #3b5998;
+}
+.social-btns .btn.facebook .fa {
+  color: #3b5998;
+}
+.social-btns .btn.twitter:before {
+  background-color: #3cf;
+}
+.social-btns .btn.twitter .fa {
+  color: #3cf;
+}
+.social-btns .btn.google:before {
+  background-color: #dc4a38;
+}
+.social-btns .btn.google .fa {
+  color: #dc4a38;
+}
+.social-btns .btn.dribbble:before {
+  background-color: #f26798;
+}
+.social-btns .btn.dribbble .fa {
+  color: #f26798;
+}
+.social-btns .btn.skype:before {
+  background-color: #00aff0;
+}
+.social-btns .btn.skype .fa {
+  color: #00aff0;
+}
+.social-btns .btn:focus:before,
+.social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%;
+}
+.social-btns .btn:focus .fa,
+.social-btns .btn:hover .fa {
+  color: #fff;
+  transform: scale(1);
+}
+.social-btns {
+  height: 90px;
+  margin: auto;
+  font-size: 0;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  margin: 0 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+  opacity: 0.99;
+}
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  transform: rotate(45deg);
+}
+.social-btns .btn .fa {
+  font-size: 38px;
+  vertical-align: middle;
+}
+
+.social-icon{
+    position: relative;
     text-align: center;
-    font-family: sans-serif;
+   
+
+}
+.copyright p{
+    text-align:center;
+    color: rgb(14, 13, 13);
 }
