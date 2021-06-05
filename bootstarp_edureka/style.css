@@ -3,18 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+   
 
 .offer{
     height: 12vh;
     width: 100%;
 
 }
+.navbar-brand {
+    position: relative;
+    right: 65px;
+    
+}
+.logo_name span{
+    color: #000;
+}
+.badge{
+    border-radius: 1.25rem;
+}
 .alert{
     position: absolute;
     text-align: center;
-    height: 9vh;
+    height: 11vh;
     width: 100%;
 }
 .text{
     top: 2%;
+    font-size: 25px;
+}
+
+.navbar-nav{
+    position: relative;
+    left: 4%;
+}
+.logo_name{
+    position: relative;
+    left: 6px;
+    align-items: center;
+    font-size: 100%;
 }
