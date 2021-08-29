@@ -8,8 +8,10 @@
 ```bash
 npm init -y
 ```
-
-
+2nd Commnad use it for install tailwindcss
+```bash
+npm install tailwindcss
+```
 
 
 
