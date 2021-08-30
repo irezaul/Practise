@@ -20,7 +20,7 @@ npm install tailwindcss
 #### Include Tailwind in your CSS
 > Create a CSS file if you don’t already have one, and use the `@tailwind directive` to inject `Tailwind’s base, components,` and `utilities` styles:
 
-> now paste the `tailwindcss` code on style.css src folder
+> now paste the `tailwindcss` code on style.css src folder -
 
 ```bash
 @tailwind base;
