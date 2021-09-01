@@ -34,6 +34,10 @@ npm install tailwindcss
 ```
 ![package_json](https://user-images.githubusercontent.com/77927449/131676447-6b8f55e2-e910-4972-a79b-8eee5cc882f5.jpg)
 
+> not go to command line or terminal type 
+```bash
+npm run build-css
+```
 
 
 
