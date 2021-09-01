@@ -27,6 +27,13 @@ npm install tailwindcss
 @tailwind components;
 @tailwind utilities;
 ```
+## Now open package.json file & edit the line & write this
+```bash
+"scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+```
+![package_json](https://user-images.githubusercontent.com/77927449/131676447-6b8f55e2-e910-4972-a79b-8eee5cc882f5.jpg)
+
 
 
 
