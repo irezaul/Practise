@@ -4,7 +4,7 @@
 
 1. open your working directoy -
 
-> use this command
+> use this command -
 ```bash
 npm init -y
 ```
