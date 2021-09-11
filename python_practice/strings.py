@@ -1,6 +1,6 @@
 Language = "Python"
 
-# Letter Lenght
+# Letter Lenght -
 # print(len(Language))
 
 # letter slice
