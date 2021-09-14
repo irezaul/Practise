@@ -38,6 +38,7 @@ npm install tailwindcss
 ```bash
 npm run build-css
 ```
+#### check build
 
 
 
