@@ -39,6 +39,7 @@ npm install tailwindcss
 npm run build-css
 ```
 #### check build -
+use command
 
 
 
