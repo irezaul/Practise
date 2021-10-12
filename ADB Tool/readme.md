@@ -17,11 +17,11 @@ private processStartInfo info =new ProcessStartInfo();
             info.RedirectStandardOutput = true;
 ```
 
-### Now goto event button 
+### Now goto event button & added folder on `bin/debug/ToolsName`
 ```
  try
             {
-                info.FileName = "adb.exe";
+                info.FileName = "Name//adb.exe";
                 info.Arguments = "devices";
                 process.StartInfo = info;
 
