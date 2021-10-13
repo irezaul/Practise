@@ -59,6 +59,7 @@ using System.Diagnostics;
             lblBrand.Text = process.StandardOutput.ReadToEnd();
             
 ```
+> lblBrand is level name
 
 ### 3rd - click on deviceinfo button & pass clickevent
 
