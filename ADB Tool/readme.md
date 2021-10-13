@@ -46,3 +46,24 @@ using System.Diagnostics;
 ```
   private Process process = new Process();
   private ProcessStartInfo info = new ProcessStartInfo();
+```
+### Pass to argumnet on level where to show info 
+
+```
+ info.FileName = "Tool//adb.exe";
+            info.Arguments = "shell getprop ro.hardware";
+
+            process.StartInfo = info;
+            process.Start();
+
+            lblBrand.Text = process.StandardOutput.ReadToEnd();
+            
+```
+
+### 3rd - click on deviceinfo button & pass clickevent
+
+``` 
+DeviceInfo deviceInfo = new DeviceInfo();
+deviceInfo.ShowDialog();
+```
+
