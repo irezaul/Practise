@@ -35,3 +35,14 @@ private processStartInfo info =new ProcessStartInfo();
                 MessageBox.Show(ex.Message);
             }
 ```
+
+### Device information -
+aasembely input
+
+```
+using System.Diagnostics;
+```
+2nd Process `public partial class deviceinfo : Form`
+```
+  private Process process = new Process();
+  private ProcessStartInfo info = new ProcessStartInfo();
