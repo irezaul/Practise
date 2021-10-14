@@ -47,7 +47,7 @@ using System.Diagnostics;
   private Process process = new Process();
   private ProcessStartInfo info = new ProcessStartInfo();
 ```
-### Pass to argumnet on level where to show info 
+### Pass to argumnet on level where to show info -
 
 ```
  info.FileName = "Tool//adb.exe";
