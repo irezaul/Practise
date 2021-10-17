@@ -3,7 +3,7 @@
 
 > using System.Diagnostics;
 
-### now declear object on button (` public partial class Form1 : Form `)
+### now declear object on button (` public partial class Form1 : Form `) -
 
 ```
 private Process process=new Process();
