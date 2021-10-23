@@ -37,7 +37,7 @@ private processStartInfo info =new ProcessStartInfo();
 ```
 
 ### Device information --
-aasembely input by 
+aasembely input by -
 
 ```
 using System.Diagnostics;
