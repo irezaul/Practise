@@ -61,7 +61,7 @@ using System.Diagnostics;
 ```
 > lblBrand is level name
 
-### 3rd - click on deviceinfo button & pass clickevent
+### 3rd - click on deviceinfo button & pass clickevent -
 
 ``` 
 DeviceInfo deviceInfo = new DeviceInfo();
