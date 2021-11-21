@@ -11,7 +11,9 @@ private ProcessStartInfo info =new ProcessStartInfo();
 ```
 ###  now initialize on (  public Form1(){ ) -
 > InitializeComponent();
-```         info.WindowStyle = ProcessWindowStyle.Hidden;
+```        
+
+            info.WindowStyle = ProcessWindowStyle.Hidden;
             info.CreateNoWindow = true;
             info.UseShellExecute= false;
             info.RedirectStandardOutput = true;
