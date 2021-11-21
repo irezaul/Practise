@@ -7,7 +7,7 @@
 
 ```
 private Process process=new Process();
-private processStartInfo info =new ProcessStartInfo();
+private ProcessStartInfo info =new ProcessStartInfo();
 ```
 ###  now initialize on (  public Form1(){ ) -
 > InitializeComponent();
