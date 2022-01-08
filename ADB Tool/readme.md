@@ -9,7 +9,7 @@
 private Process process=new Process();
 private ProcessStartInfo info =new ProcessStartInfo();
 ```
-###  now initialize on (  public Form1(){ ) -
+###  now initialize on (  public Form1(){ ) - -
 > InitializeComponent();
 ```        
 
