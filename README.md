@@ -1,0 +1,5 @@
+# Practise
+### gopls error 
+```go
+go.useLanguageServer": false,
+```
