@@ -5,7 +5,7 @@
 
 ### now declear object on button (` public partial class Form1 : Form `) -
 
-```
+```c#
 private Process process=new Process();
 private ProcessStartInfo info =new ProcessStartInfo();
 ```
