@@ -41,7 +41,7 @@ private ProcessStartInfo info =new ProcessStartInfo();
 ### Device information --
 aasembely input by -
 
-```
+```c#
 using System.Diagnostics;
 ```
 2nd Process `public partial class deviceinfo : Form`
