@@ -20,7 +20,7 @@ private ProcessStartInfo info =new ProcessStartInfo();
 ```
 
 ### Now goto event button & added folder on `bin/debug/ToolsName`
-```
+```c#
  try
             {
                 info.FileName = "Name//adb.exe";
