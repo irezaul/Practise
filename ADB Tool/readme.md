@@ -51,7 +51,7 @@ using System.Diagnostics;
 ```
 ### Pass to argumnet on level where to show info -
 
-```
+```c#
  info.FileName = "Tool//adb.exe";
             info.Arguments = "shell getprop ro.hardware";
 
