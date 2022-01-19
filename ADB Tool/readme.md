@@ -65,7 +65,7 @@ using System.Diagnostics;
 
 ### 3rd - click on deviceinfo button & pass clickevent --
 
-``` 
+```c#
 DeviceInfo deviceInfo = new DeviceInfo();
 deviceInfo.ShowDialog();
 ```
