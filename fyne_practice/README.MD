@@ -4,6 +4,7 @@
 
 ![](./img/build_error.png)
 
+> now use command for gcc libg install
 ```bash
 sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev
 ```
