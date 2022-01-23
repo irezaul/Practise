@@ -1,8 +1,9 @@
 
 ### 1st aasembely input -
 
-> using System.Diagnostics;
-
+```c#
+using System.Diagnostics;
+```
 ### now declear object on button (` public partial class Form1 : Form `) -
 
 ```c#
