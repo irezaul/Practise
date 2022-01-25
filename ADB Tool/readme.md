@@ -70,4 +70,4 @@ using System.Diagnostics;
 DeviceInfo deviceInfo = new DeviceInfo();
 deviceInfo.ShowDialog();
 ```
-
+### how to add Fastboot
