@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	//New App
+	//New App command
 	myapp := app.New()
 
 	// windows with title
