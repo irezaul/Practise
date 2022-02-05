@@ -71,3 +71,7 @@ DeviceInfo deviceInfo = new DeviceInfo();
 deviceInfo.ShowDialog();
 ```
 ### how to add Fastboot
+
+```c#
+fastboot devices
+```
