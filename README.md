@@ -3,3 +3,4 @@
 ```go
 go.useLanguageServer": false,
 ```
+## go install
