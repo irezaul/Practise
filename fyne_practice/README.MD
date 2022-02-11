@@ -9,3 +9,9 @@
 sudo apt-get install golang gcc libgl1-mesa-dev xorg-dev
 ```
 
+### #01 Create a input with placeholder
+
+```go
+  Variable := widget.NewEntry()
+	Variable.PlaceHolder = "PlaceHolder Text.."
+  ```
