@@ -13,3 +13,5 @@ $ adb reboot recovery
 $ adb reboot fastboot
 
 $ fastboot devices // check device
+
+$ fastboot reboot 
