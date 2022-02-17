@@ -15,3 +15,5 @@ $ adb reboot fastboot
 $ fastboot devices // check device
 
 $ fastboot reboot 
+
+$ fastboot getvar all // check version
