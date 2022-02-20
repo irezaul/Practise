@@ -22,3 +22,7 @@ $ fastboot reboot
 $ fastboot getvar all // check version
 
 $ fastboot oem unlock
+================================
+
+MTP mode -
+
