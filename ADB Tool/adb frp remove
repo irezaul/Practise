@@ -25,5 +25,6 @@ $ fastboot oem unlock
 ================================
 
 MTP mode -
-$ mtp 
+$ mtp devices
+
 
