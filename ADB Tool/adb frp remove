@@ -24,7 +24,7 @@ $ fastboot getvar all // check version
 $ fastboot oem unlock
 ================================
 
-MTP mode -
+MTP mode - Command 
 $ mtp devices
 $ mtp attach 
 
