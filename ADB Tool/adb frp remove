@@ -27,5 +27,5 @@ $ fastboot oem unlock
 MTP mode - Command 
 $ mtp devices
 $ mtp attach 
-
+$ mtp reboot
 
