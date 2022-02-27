@@ -28,4 +28,5 @@ MTP mode - Command
 $ mtp devices
 $ mtp attach 
 $ mtp reboot
+$ mtp attach
 
