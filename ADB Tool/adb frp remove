@@ -32,5 +32,6 @@ $ mtp attach
 
 Download Mode 
 =============================
+$ adb reboot download 
 
 
