@@ -33,5 +33,6 @@ $ mtp attach
 Download Mode 
 =============================
 $ adb reboot download 
+$ adb devices
 
 
