@@ -34,5 +34,5 @@ Download Mode
 =============================
 $ adb reboot download 
 $ adb devices
-
+$ mtp--connect 
 
