@@ -36,3 +36,4 @@ $ adb reboot download
 $ adb devices
 $ mtp--connect 
 
+$ mtp-attatch-devices
