@@ -37,3 +37,4 @@ $ adb devices
 $ mtp--connect 
 
 $ mtp-attatch-devices
+$ mtp-dissconnect
