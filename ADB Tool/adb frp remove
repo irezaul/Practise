@@ -39,3 +39,4 @@ $ mtp--connect
 $ mtp-attatch-devices
 $ mtp-dissconnect
 $ mtp-reboot
+$ mtp-status
