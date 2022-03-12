@@ -40,3 +40,7 @@ $ mtp-attatch-devices
 $ mtp-dissconnect
 $ mtp-reboot
 $ mtp-status
+$ mtp-block
+
+# Bootloader unlock
+============================
