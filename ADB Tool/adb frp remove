@@ -44,3 +44,4 @@ $ mtp-block
 
 # Bootloader unlock
 ============================
+$ fastboot oem lock // lock bootloader
