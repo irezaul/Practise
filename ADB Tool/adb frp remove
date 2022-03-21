@@ -46,5 +46,7 @@ $ mtp-block
 ============================
 $ fastboot oem lock // lock bootloader
 $ fastboot oem unlock //unlock bootloader
-$ faasboot info
+$ fastboot info 
 ======≠================
+EDL 
+======================={
