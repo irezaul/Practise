@@ -49,4 +49,5 @@ $ fastboot oem unlock //unlock bootloader
 $ fastboot info 
 ======≠================
 EDL 
-======================={
+=======================
+$ fastboot reboot edl
