@@ -51,3 +51,4 @@ $ fastboot info
 EDL 
 =======================
 $ fastboot reboot edl
+$ edl-infoboot 
