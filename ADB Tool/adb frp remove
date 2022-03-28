@@ -52,3 +52,4 @@ EDL
 =======================
 $ fastboot reboot edl
 $ edl-infoboot 
+$ edl-reboot
