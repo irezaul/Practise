@@ -54,3 +54,4 @@ $ fastboot reboot edl
 $ edl-infoboot 
 $ edl-reboot
 $ edl-break
+$ edl-check-info
