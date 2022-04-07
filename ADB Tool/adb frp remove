@@ -58,3 +58,4 @@ $ edl-check-info
 $ edl-check
 $ edl-modelock
 $ edl-modify
+$ edl-forkend
