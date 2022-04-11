@@ -60,3 +60,4 @@ $ edl-modelock
 $ edl-modify
 $ edl-forkend
 $ edl-break
+$ edl-count
