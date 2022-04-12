@@ -61,3 +61,4 @@ $ edl-modify
 $ edl-forkend
 $ edl-break
 $ edl-count
+$ edl-bound
