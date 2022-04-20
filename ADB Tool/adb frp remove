@@ -66,3 +66,4 @@ $ edl-host
 $ edl-checkout
 $ edl-main
 $ edl-stop
+$ edl-mode
