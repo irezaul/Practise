@@ -75,3 +75,4 @@ $ edl-pull
 $ edl-qdr
 $ edl-marge 
 $ edl-break
+$ edl-pushhash
