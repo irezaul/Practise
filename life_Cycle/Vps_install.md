@@ -5,6 +5,10 @@ aaPanel install
 wget -O install.sh http://www.aapanel.com/script/install-ubuntu_6.0_en.sh && sudo bash install.sh aapanel
 ```
 
+## Aapanel location -
+```bash
+/www/server/panel/data
+```
 ```shell
 aaPanel Internet Address: https://74.208.181.199:7800/93606cd2
 aaPanel Internal Address: https://74.208.181.199:7800/93606cd2
