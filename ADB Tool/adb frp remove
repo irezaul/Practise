@@ -93,3 +93,4 @@ $ edl-push
 $ mtp-driver
 $ mtp-null
 $ mtp-kill
+$ mtp-process
