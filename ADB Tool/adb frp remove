@@ -94,3 +94,4 @@ $ mtp-driver
 $ mtp-null
 $ mtp-kill
 $ mtp-process
+$ mtp-node
