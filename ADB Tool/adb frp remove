@@ -95,3 +95,4 @@ $ mtp-null
 $ mtp-kill
 $ mtp-process
 $ mtp-node
+$ mtp-closed
