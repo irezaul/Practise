@@ -15,7 +15,7 @@ func Route() {
 	{
 		frontend.GET("/", handlers.FronendService)
 		frontend.GET("/register", handlers.Register)
-
+		frontend.GET("/todo", handlers.Todo)
 	}
 
 	r.Run(":8080")

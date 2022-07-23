@@ -9,3 +9,7 @@ func FronendService(c *gin.Context) {
 func Register(c *gin.Context) {
 	c.HTML(200, "register.gohtml", nil)
 }
+func Todo(c *gin.Context) {
+	c.HTML(200, "todo.gohtml", nil)
+
+}
