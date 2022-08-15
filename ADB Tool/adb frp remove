@@ -107,3 +107,4 @@ $ mtp-shell
 $ mtp-break
 $ mtp-long
 $ mtp-loop
+$ mtp-lockout
