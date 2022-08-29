@@ -109,3 +109,4 @@ $ mtp-long
 $ mtp-loop
 $ mtp-lockout
 $ mtp-lookup
+$ mtp-changeGlobe
