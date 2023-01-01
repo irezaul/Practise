@@ -111,3 +111,5 @@ $ mtp-lockout
 $ mtp-lookup
 $ mtp-changeGlobe
 $ mtp-cbzfroke
+
+## diag enable without root xioami
