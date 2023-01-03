@@ -113,3 +113,4 @@ $ mtp-changeGlobe
 $ mtp-cbzfroke
 
 ## diag enable without root xioami
+$ adb shell am start -n com.longcheertel.midtest/
